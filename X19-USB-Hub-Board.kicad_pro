@@ -519,14 +519,14 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "ROV_PCIe_USB_HUB"
+      "rov_logic"
     ],
     "pinned_symbol_libs": [
-      "ROV_PCIe_USB_HUB"
+      "rov_logic"
     ]
   },
   "meta": {
-    "filename": "ROV_PCIE_USB_HUB_FINAL.kicad_pro",
+    "filename": "X19-USB-Hub-Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -831,7 +831,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ROV_PCIE_USB_HUB_FINAL.kicad_sch",
+        "filename": "X19-USB-Hub-Board.kicad_sch",
         "name": "Root",
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }

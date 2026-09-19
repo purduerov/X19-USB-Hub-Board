@@ -828,7 +828,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6ec349fc-ef2b-4146-832f-204c9422a227")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1818,7 +1818,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8b111db1-9b79-4854-92cc-a5e602a18259")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3961,7 +3961,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9b5eb00c-1e1b-429e-a353-cf0c30cf0a84")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6885,7 +6885,7 @@
 			)
 		)
 	)
-	(footprint "ROV_PCIe_USB_HUB:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+	(footprint "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "3025e951-4ace-4060-ae8d-ac89e4e4e10a")
 		(at 101.8 84.4 180)
@@ -10101,7 +10101,7 @@
 			)
 		)
 	)
-	(footprint "ROV_PCIe_USB_HUB:0436500227"
+	(footprint "rov_connectors:0436500227"
 		(layer "F.Cu")
 		(uuid "384731f4-6018-4679-a313-f9fc238a33f4")
 		(at 104.299999 102.6)
@@ -10195,7 +10195,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9e52bec7-c9d2-4e33-9c6e-2f53b9ee36eb")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10389,7 +10389,7 @@
 			(uuid "c4bd6c7c-f007-4a1c-bff2-502097b7896b")
 		)
 		(embedded_fonts no)
-		(model "/Users/snadol/Desktop/ROV_PCIe_USB_HUB/lib/ROV_PCIe_USB_HUB.3d/436500227.stp"
+		(model "${KIPRJMOD}/libs/purdue-rov-kicad-lib/3D_Models/436500227.stp"
 			(offset
 				(xyz -1.5 -2 10)
 			)
@@ -11596,7 +11596,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0a8db841-23e6-4af9-b3ed-fec0222337ac")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13180,7 +13180,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3425296d-c1bd-4d10-b090-1d9ea06d71f0")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14791,7 +14791,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/007464f5-d87a-475a-9a4f-394ec5432693")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15225,7 +15225,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/51e07842-81bc-4111-9b05-f9b8a5410370")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15870,7 +15870,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7c064b7f-84a5-4def-a96f-983feaa6121c")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17942,7 +17942,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3368a821-c4a1-4efd-86bd-75c2cdff9576")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18103,7 +18103,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/16176710-8f66-449f-b624-2db79cf4b828")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19145,7 +19145,7 @@
 			)
 		)
 	)
-	(footprint "ROV_PCIe_USB_HUB:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
+	(footprint "rov_logic:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 		(layer "F.Cu")
 		(uuid "69865df5-1bb2-49da-87f0-26866da89460")
 		(at 83.6348 74.2348 -90)
@@ -24100,7 +24100,7 @@
 		(property ki_fp_filters "Diodes*PowerDI3333*")
 		(path "/922feebf-456e-4b63-a49e-02c510e81b0b")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24930,7 +24930,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d5f65d1-ef46-4609-beeb-f64cfe73d54e")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25617,7 +25617,7 @@
 			)
 		)
 	)
-	(footprint "ROV_PCIe_USB_HUB:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+	(footprint "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "75482d3e-1b9b-4fe1-b0fc-1f9a492ce40c")
 		(at 63.6557 93.2041 90)
@@ -26699,7 +26699,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/01f6eed1-ae7d-4cb9-a57d-e6aab311ed59")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28551,7 +28551,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4be2f0e2-2215-41dc-bf12-987372a54510")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29816,7 +29816,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4056932f-91f1-46a9-b5aa-c7260554d80d")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32219,7 +32219,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4bfdfa6f-9a6a-4c0e-bc01-6eef8278f885")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33629,7 +33629,7 @@
 		)
 		(path "/3a18b559-b3c5-4aee-a1d7-4ee5666c0750")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36277,7 +36277,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/24620730-bd30-4a5d-9f6a-9422984a1a86")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36639,7 +36639,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/7fe6ec8e-9e01-481b-a02d-c7de3e12825c")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38155,7 +38155,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7a8bbee-08da-4563-83c6-407e531180a8")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38640,7 +38640,7 @@
 			)
 		)
 	)
-	(footprint "ROV_PCIe_USB_HUB:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+	(footprint "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "c90c5604-a7f5-4a2e-8222-4cbc2c2fb5b0")
 		(at 101.8719 66.8407 180)
@@ -40340,7 +40340,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5e09ad81-ff85-482c-9724-900eee61905b")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40552,7 +40552,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c8d09105-76a4-496e-95bb-d5466e7e1e96")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41505,7 +41505,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/95985496-c1d5-4fe4-a1f5-5c48330559d6")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -44270,7 +44270,7 @@
 			)
 		)
 	)
-	(footprint "ROV_PCIe_USB_HUB:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+	(footprint "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "ff1f1e73-aaf0-4e8a-bb26-7612b10b0d72")
 		(at 80.8 93.2 90)
@@ -45165,7 +45165,7 @@
 		(property ki_fp_filters "SOT?323*")
 		(path "/8f96e4c6-f66f-4d43-8b20-7b36b1845fe0")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45830,7 +45830,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ROV_PCIe_USB_HUB:AMPHENOL_SFV16R-1STBE1HLF"
+	(footprint "rov_connectors:AMPHENOL_SFV16R-1STBE1HLF"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "70c2c7a0-a58a-45f4-af9a-a002738156ff")
@@ -45957,7 +45957,7 @@
 		)
 		(path "/a67a1f7c-d042-40ce-bb07-e1c543737512")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46711,7 +46711,7 @@
 		(property ki_fp_filters "PinHeader*2x20*P2.54mm*Vertical* PinSocket*2x20*P2.54mm*Vertical*")
 		(path "/349bd30f-8a65-432a-b36d-f6fbabf46f57")
 		(sheetname "/")
-		(sheetfile "ROV_PCIE_USB_HUB_FINAL.kicad_sch")
+		(sheetfile "X19-USB-Hub-Board.kicad_sch")
 		(units
 			(unit
 				(name "A")

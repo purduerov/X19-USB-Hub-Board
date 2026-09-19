@@ -562,7 +562,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ROV_PCIe_USB_HUB:MX25V5126FZUI"
+		(symbol "rov_logic:MX25V5126FZUI"
 			(pin_names
 				(offset 0.254)
 			)
@@ -829,7 +829,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ROV_PCIe_USB_HUB:UPD720201K8-7x1-BAC-A"
+		(symbol "rov_logic:UPD720201K8-7x1-BAC-A"
 			(pin_names
 				(offset 0.254)
 			)
@@ -858,7 +858,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ROV_PCIe_USB_HUB:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
+			(property "Footprint" "rov_logic:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 				(at -23.876 -52.578 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5741,7 +5741,7 @@
 			(uuid "ad52e646-e96e-46c2-b1db-19abae18e349")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R17")
 					(unit 1)
@@ -5818,7 +5818,7 @@
 			(uuid "2b73618c-7eaa-4a46-aec1-000978829000")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR016")
 					(unit 1)
@@ -5895,7 +5895,7 @@
 			(uuid "7ab4b675-669c-4a63-966c-e464b3493531")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR022")
 					(unit 1)
@@ -6007,7 +6007,7 @@
 			(uuid "b9878f4f-aea1-4c06-9f0a-a66b7764bd19")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C8")
 					(unit 1)
@@ -6085,7 +6085,7 @@
 			(uuid "1f9c19f3-88d7-464a-bac1-4e0894e56e24")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR023")
 					(unit 1)
@@ -6201,7 +6201,7 @@
 			(uuid "02c61a20-f4c1-4f41-a67b-f05998ba2677")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C25")
 					(unit 1)
@@ -6316,7 +6316,7 @@
 			(uuid "caffe244-640f-4ab7-8bc7-f52d461cc5c5")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C19")
 					(unit 1)
@@ -6432,7 +6432,7 @@
 			(uuid "c77a9bd2-3c80-43db-ba39-10c1cc1efd3e")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C15")
 					(unit 1)
@@ -6544,7 +6544,7 @@
 			(uuid "41ef48c1-e1cb-40a8-b65d-d19bc5bad3be")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R12")
 					(unit 1)
@@ -6621,7 +6621,7 @@
 			(uuid "8c741d98-6e4b-46f6-9844-d9c22240f118")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR019")
 					(unit 1)
@@ -6736,7 +6736,7 @@
 			(uuid "40d2c197-b11b-4ab7-80f8-c3b9828cdc07")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C18")
 					(unit 1)
@@ -6852,7 +6852,7 @@
 			(uuid "b1d808cf-563a-49c2-aca5-88262e7d416a")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C21")
 					(unit 1)
@@ -6966,7 +6966,7 @@
 			(uuid "e947cceb-a2d5-44f9-9a30-67e8d5f2a46b")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C11")
 					(unit 1)
@@ -7079,7 +7079,7 @@
 			(uuid "c5faa410-5990-43b4-adc0-be02099b9577")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R16")
 					(unit 1)
@@ -7195,7 +7195,7 @@
 			(uuid "32fa9bf7-04b2-426a-8b0a-843c0a80e306")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C4")
 					(unit 1)
@@ -7307,7 +7307,7 @@
 			(uuid "e53fd60c-de59-4b9d-8aae-5b0952dba188")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R18")
 					(unit 1)
@@ -7427,7 +7427,7 @@
 			(uuid "7e2259fe-8036-4c67-809f-845be11c63c3")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "Y1")
 					(unit 1)
@@ -7543,7 +7543,7 @@
 			(uuid "c02db588-95aa-4843-8af9-3694eec2b4d5")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C13")
 					(unit 1)
@@ -7621,7 +7621,7 @@
 			(uuid "5706fed4-b265-498e-a4c2-6b15bae37f37")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR021")
 					(unit 1)
@@ -7737,7 +7737,7 @@
 			(uuid "f2fb595f-1730-4bf1-9ed7-f3a501d87083")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C7")
 					(unit 1)
@@ -7853,7 +7853,7 @@
 			(uuid "5a7e40de-27e0-49b5-beb9-922096fcfca0")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C20")
 					(unit 1)
@@ -7862,7 +7862,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ROV_PCIe_USB_HUB:MX25V5126FZUI")
+		(lib_id "rov_logic:MX25V5126FZUI")
 		(at 54.61 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -7968,7 +7968,7 @@
 			(uuid "17bbeef8-5aac-4484-8c6d-8ab230983c75")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "U1")
 					(unit 1)
@@ -8080,7 +8080,7 @@
 			(uuid "c9bf5efe-af28-45c4-b6ae-ebb30f06be9c")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C9")
 					(unit 1)
@@ -8157,7 +8157,7 @@
 			(uuid "ba09031d-a8e2-43b0-96a7-1f9f6f70a3f2")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR013")
 					(unit 1)
@@ -8273,7 +8273,7 @@
 			(uuid "b0a9fc0a-3c66-4c0c-b829-8e96f4d318fb")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C10")
 					(unit 1)
@@ -8351,7 +8351,7 @@
 			(uuid "a2331753-751e-4839-bf6a-444bf68c9abe")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR018")
 					(unit 1)
@@ -8467,7 +8467,7 @@
 			(uuid "1c5353ce-39ea-4606-a328-fd721bda0edf")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C24")
 					(unit 1)
@@ -8582,7 +8582,7 @@
 			(uuid "ea00e1fe-9a9d-476d-b04a-46a88a424cc6")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C16")
 					(unit 1)
@@ -8698,7 +8698,7 @@
 			(uuid "c0ee98fa-b448-4d5c-9a1b-5b6425c1448d")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C23")
 					(unit 1)
@@ -8814,7 +8814,7 @@
 			(uuid "76b1c93d-981c-4322-964e-ff1088f36309")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C6")
 					(unit 1)
@@ -8926,7 +8926,7 @@
 			(uuid "20857e77-3aaf-4218-ae73-ffe4267fbd3a")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R11")
 					(unit 1)
@@ -9003,7 +9003,7 @@
 			(uuid "483c73db-6d2c-42d2-a5ea-39f629c76aa9")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR017")
 					(unit 1)
@@ -9012,7 +9012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ROV_PCIe_USB_HUB:UPD720201K8-7x1-BAC-A")
+		(lib_id "rov_logic:UPD720201K8-7x1-BAC-A")
 		(at 162.56 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -9045,7 +9045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ROV_PCIe_USB_HUB:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
+		(property "Footprint" "rov_logic:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 			(at 138.684 150.368 0)
 			(hide yes)
 			(show_name no)
@@ -9299,7 +9299,7 @@
 			(uuid "9dbd5fb8-01b7-4361-a3fc-b01a19453ad1")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "U2")
 					(unit 1)
@@ -9415,7 +9415,7 @@
 			(uuid "d5ffcdde-c9e4-45e3-b5cc-6e7e0bf1f99f")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C3")
 					(unit 1)
@@ -9493,7 +9493,7 @@
 			(uuid "25c5cc0a-7ce3-4c38-bf14-b1cfe1a770d4")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR015")
 					(unit 1)
@@ -9609,7 +9609,7 @@
 			(uuid "93b5f952-422b-42fd-b760-da04c1711d60")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C5")
 					(unit 1)
@@ -9721,7 +9721,7 @@
 			(uuid "04a09aad-0522-450f-840e-b9ff34d5a78f")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R13")
 					(unit 1)
@@ -9798,7 +9798,7 @@
 			(uuid "8cd77ac6-a72b-4f51-87bb-d11f51c89bf2")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR020")
 					(unit 1)
@@ -9911,7 +9911,7 @@
 			(uuid "64572d2c-fb30-41fb-8441-b93efb6709fb")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R15")
 					(unit 1)
@@ -10026,7 +10026,7 @@
 			(uuid "59bf67ad-b4df-48f0-8fb2-6937f33dbcfd")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C17")
 					(unit 1)
@@ -10142,7 +10142,7 @@
 			(uuid "0dbb815e-077f-4963-adc2-7b8ac3b911f2")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C22")
 					(unit 1)
@@ -10220,7 +10220,7 @@
 			(uuid "3c404dc8-7e35-460b-8180-721c23c619d4")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR014")
 					(unit 1)
@@ -10298,7 +10298,7 @@
 			(uuid "c1c27f16-f86f-4a49-a9eb-be644323f243")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "#PWR012")
 					(unit 1)
@@ -10413,7 +10413,7 @@
 			(uuid "7d6dea10-75c3-4994-9c46-457790336ff9")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C2")
 					(unit 1)
@@ -10525,7 +10525,7 @@
 			(uuid "0dd36a48-83ee-4f19-802b-a484b30731f5")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R19")
 					(unit 1)
@@ -10641,7 +10641,7 @@
 			(uuid "58ef8858-7361-433a-ac12-f10e3e165bfc")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C14")
 					(unit 1)
@@ -10755,7 +10755,7 @@
 			(uuid "3593f22a-0367-4d6e-9419-8622211575a8")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C12")
 					(unit 1)
@@ -10868,7 +10868,7 @@
 			(uuid "80f0d2af-088d-4fd8-bf94-f1147c3432dc")
 		)
 		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
+			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "R14")
 					(unit 1)
