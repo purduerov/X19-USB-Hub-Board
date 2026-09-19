@@ -1,0 +1,48 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Pins,Part Number,KLC_S3.3,KLC_S4.1,PARTREV,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,STANDARD
+1,"Unpolarized capacitor, small symbol",C_Small,C11 C12 C26 C27 C36 C37 C46 C47 C56 C57,10p,C_0402_1005Metric,10, ,,,CC0402JRNPO9BN100,,,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C2 C3 C4 C5 C6 C7 C8 C9 C10 C13 C14 C15 C18 C19 C20 C21 C22 C23 C24 C25 C28 C29 C31 C32 C38 C39 C41 C42 C48 C49 C51 C52 C58 C59 C61 C62 C68 C69,100n,C_0402_1005Metric,38, ,,,CC0402KRX7R8BB104,,,,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C1,330n,C_0402_1005Metric,1, ,,,CC0402KPX5R6BB334,,,,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C30 C40 C50 C60,1u,C_0603_1608Metric,4, ,,,CC0603KRX5R6BB105,,,,,,
+5,"Unpolarized capacitor, small symbol",C_Small,C33 C34 C35 C43 C44 C45 C53 C54 C55 C63 C64 C65 C66 C67,10u,C_0805_2012Metric,14, ,,,CC0805KRX5R8BB106,,,,,,
+6,"Unpolarized capacitor, small symbol",C_Small,C16 C17 C72 C73,22u,C_1206_3216Metric,4, ,,,CC1206KKX5R8BB226,,,,,,
+7,"Schottky barrier diode, SOT-323",BAT54W,D8,BAT54W,SOT-323_SC-70,1, ,https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf,,BAT54W,,,,,,
+8,"Light emitting diode, small symbol",LED_Small,D1 D2 D3 D4 D5,LED_Small,LED_0603_1608Metric,5, ,,1=K 2=A,LTST-C190GKT,,,,,,
+9,"400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)",SMAJ5.0A,D6,SMAJ5.0A,D_SMA,1, ,https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet,,SMAJ5.0A,,,,,,
+10,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J3,0436500227,0436500227,1, ,,,1053131102,,,,,,
+11,"Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_MountingPin,J5 J6 J7 J8 J9 J10 J11 J12,BM04B-SRSS-TB,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,8, ,,,BM04B-SRSS-TB,,,,,,
+12,,SFV16R-1STBE1HLF,J1,SFV16R-1STBE1HLF,AMPHENOL_SFV16R-1STBE1HLF,1, ,,,SFV16R-1STBE1HLF,,,B,Amphenol FCI,2.0mm,Manufacturer Recommendations
+13,Inductor,L,L1 L2,1u,L_1008_2520Metric,2, ,,,DFE252012F-1R0M,,,,,,
+14,"-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8",DMP3013SFV,Q1,DMP3018SFV,Diodes_PowerDI3333-8,1, ,https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf,,DMP3018SFV,,,,,,
+15,"Resistor, small US symbol",R_Small_US,R19,0,R_0402_1005Metric,1, ,,,RC0402FR-070RL,,,,,,
+16,"Resistor, small US symbol",R_Small_US,R6 R7 R8,100R,R_0603_1608Metric,3, ,,,RC0603FR-07100RL,,,,,,
+17,"Resistor, small US symbol",R_Small_US,R4 R5,270R,R_0603_1608Metric,2, ,,,RC0603FR-07270RL,,,,,,
+18,"Resistor, small US symbol",R_Small_US,R17,1k6 1%,R_0603_1608Metric,1, ,,,RC0603FR-071K6L,,,,,,
+19,"Resistor, small US symbol",R_Small_US,R2,5k1,R_0603_1608Metric,1, ,,,RC0603FR-075K1L,,,,,,
+20,"Resistor, small US symbol",R_Small_US,R3 R10 R11 R12 R13 R15 R16 R18 R24 R25 R30 R31 R36 R37 R42 R43 R44 R45,10k,R_0402_1005Metric,18, ,,,RC0402FR-0710KL,,,,,,
+21,"Resistor, small US symbol",R_Small_US,R20 R26 R32 R38,12k,R_0603_1608Metric,4, ,,,RC0603FR-0712KL,,,,,,
+22,"Resistor, small US symbol",R_Small_US,R48,75k,R_0603_1608Metric,1, ,,,RC0603FR-0775KL,,,,,,
+23,"Resistor, small US symbol",R_Small_US,R1 R9 R14 R21 R22 R23 R27 R28 R29 R33 R34 R35 R39 R40 R41 R47 R49,100k,R_0603_1608Metric,17, ,,,RC0603FR-07100KL,,,,,,
+24,"Resistor, small US symbol",R_Small_US,R46,453k,R_0603_1608Metric,1, ,,,RC0603FR-07453KL,,,,,,
+25,,MX25V5126FZUI,U1,MX25V5126FZUI,Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm,1, ,MX25V5126FZUI,,MX25V5126FZUI,,,,,,
+26,"0.5A Current limited power switch, single channel, output discharge, reverse blocking, SOT-23-5",TPS2051CDBV,U4 U5 U7 U8 U10 U11 U13 U14,TPS2051CDBVR,SOT-23-5,8, ,https://www.ti.com/lit/ds/symlink/tps2051c.pdf,,TPS2051CDBVR,,,,,,
+27,"High Efficiency Synchronous Buck Converter with forced PWM, Adjustable Output 0.6V-5.5V, 2A, Power Good, Enable, SOT-23-6",TPS62A02APDDC,U15 U16,TPS62A02APDDC,SOT-23-6,2, ,https://www.ti.com/lit/gpn/tps62a02a,,TPS62A02APDDC,,,,,,
+28,,UPD720201K8-7x1-BAC-A,U2,UPD720201K8-7x1-BAC-A,QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm,1, ,UPD720201K8-701-BAC-A,,UPD720201K8-701-BAC-A,,,,,,
+29,,USB2422_MJ,U3 U6 U9 U12,USB2422/MJ,QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias,4, ,USB2422/MJ,,USB2422/MJ,,,,,,
+30,"Four pin crystal, GND on pins 2 and 4, small symbol",Crystal_GND24_Small,Y1 Y2 Y3 Y4 Y5,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,5, ,,,ECS-240-8-37B-CKY-TR,The rectangle is not a symbol body but a graphical element,Some pins are on 50mil grid to make the symbol small,,,,
+
+
+
+
+
+Project info:
+Schematic:,X19-USB-Hub-Board
+Variant:,default
+Revision:,
+Date:,2026-09-19_21-06-28
+KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
+Statistics:
+Component Groups:,30
+Component Count:,161
+Fitted Components:,161
+Number of PCBs:,1
+Total Components:,161
