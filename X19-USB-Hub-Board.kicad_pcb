@@ -6578,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-0710KL"
+		(property "Part Number" "RC0402FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8711,7 +8711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "7160b690-ffbd-4879-835e-1545d341638e")
@@ -8756,7 +8756,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10196,6 +10196,12 @@
 		(path "/9e52bec7-c9d2-4e33-9c6e-2f53b9ee36eb")
 		(sheetname "/")
 		(sheetfile "X19-USB-Hub-Board.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13489,7 +13495,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "f82689e5-4f4b-467e-8599-aceef932ccb0")
@@ -13534,7 +13540,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14301,7 +14307,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "02be1063-9455-4c29-a5e0-94edb7a5e9cc")
@@ -14346,7 +14352,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15854,7 +15860,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-0710KL"
+		(property "Part Number" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17043,7 +17049,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "f479e038-f7a6-43b8-b995-57a67bf8e5e6")
@@ -17088,7 +17094,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26522,7 +26528,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-0710KL"
+		(property "Part Number" "RC0402FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26971,7 +26977,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "45c04a15-5917-4e6b-b107-3f31c8d34d50")
@@ -27016,7 +27022,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28713,7 +28719,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "b41ddc84-9763-4074-be5c-ab4fed33d6c6")
@@ -28758,7 +28764,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29800,7 +29806,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-0710KL"
+		(property "Part Number" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29927,7 +29933,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "12bbac2f-8160-418f-99d0-11fac2ce0b6e")
@@ -29972,7 +29978,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30343,7 +30349,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "f221d98c-484f-4ab8-862d-37eb4e894bbf")
@@ -30388,7 +30394,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
