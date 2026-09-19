@@ -522,7 +522,12 @@
       "rov_logic"
     ],
     "pinned_symbol_libs": [
-      "rov_logic"
+      "rov_logic",
+      "rov_connectors",
+      "rov_mech",
+      "rov_passives",
+      "rov_power",
+      "rov_sensors"
     ]
   },
   "meta": {
@@ -836,7 +841,7 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,Q1,C1-83,FB1-9,U1-23,L1-2",
+    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,U1-23,C1-83,FB1-9,Q1,L1-2",
     "variants": [
       {
         "name": "USB2414"
