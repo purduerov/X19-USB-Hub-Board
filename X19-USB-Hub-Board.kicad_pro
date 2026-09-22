@@ -81,7 +81,68 @@
           "width": 0.19
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|55049200|69700800|c73c2640-125e-4144-b670-3efba1ea3852|3e40fe90-4e3d-4247-a763-0590f5b74e53",
+          ""
+        ],
+        [
+          "silk_edge_clearance|55049200|83200800|c73c2640-125e-4144-b670-3efba1ea3852|0b866225-0439-48fc-8827-25f6ee9f3f92",
+          ""
+        ],
+        [
+          "silk_edge_clearance|55049200|83200800|c73c2640-125e-4144-b670-3efba1ea3852|3d0f7629-f7d0-4e19-b9b8-5bd499169a45",
+          ""
+        ],
+        [
+          "silk_overlap|90985000|59485000|2fb22474-1b90-4660-982b-e279b9ca264a|3f0b9432-fcdf-434c-9ecb-905e1b19da02",
+          ""
+        ],
+        [
+          "silk_overlap|91015000|57200000|3f0b9432-fcdf-434c-9ecb-905e1b19da02|c91d190e-737c-483f-a3c4-93f410d0b027",
+          ""
+        ],
+        [
+          "silk_overlap|91015000|59485000|0af275d4-0b49-449f-a17b-a0378e6cab90|2fb22474-1b90-4660-982b-e279b9ca264a",
+          ""
+        ],
+        [
+          "silk_overlap|91015000|59485000|0af275d4-0b49-449f-a17b-a0378e6cab90|c91d190e-737c-483f-a3c4-93f410d0b027",
+          ""
+        ],
+        [
+          "silk_overlap|91485000|64985000|7235e3ef-3436-4811-9ec1-3e68576342cf|e2084640-bf80-46cc-a118-ec5470fbe724",
+          ""
+        ],
+        [
+          "silk_overlap|91485000|64985000|cd2a3d69-ff18-4213-9a1b-48835308e763|e2084640-bf80-46cc-a118-ec5470fbe724",
+          ""
+        ],
+        [
+          "silk_overlap|91485000|65015000|229c7115-57bf-4008-b0dc-4941925e6915|7235e3ef-3436-4811-9ec1-3e68576342cf",
+          ""
+        ],
+        [
+          "silk_overlap|91485000|65015000|229c7115-57bf-4008-b0dc-4941925e6915|cd2a3d69-ff18-4213-9a1b-48835308e763",
+          ""
+        ],
+        [
+          "silk_overlap|92485000|59485000|0af275d4-0b49-449f-a17b-a0378e6cab90|86deb20a-247b-47d2-acf5-f642e43e68fd",
+          ""
+        ],
+        [
+          "silk_overlap|92485000|59485000|0af275d4-0b49-449f-a17b-a0378e6cab90|bfe3f6a9-37b2-4156-9052-d6816e4b84e3",
+          ""
+        ],
+        [
+          "silk_overlap|92485000|59485000|57e74791-90ba-4310-a7c3-2fee4c6a805f|86deb20a-247b-47d2-acf5-f642e43e68fd",
+          ""
+        ],
+        [
+          "silk_overlap|92485000|59485000|57e74791-90ba-4310-a7c3-2fee4c6a805f|bfe3f6a9-37b2-4156-9052-d6816e4b84e3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -657,7 +718,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -776,12 +837,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
@@ -790,6 +845,42 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temp_Range",
+          "name": "Temp_Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Verified",
+          "name": "Verified",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
           "show": false
         }
       ],
@@ -841,7 +932,7 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,U1-23,C1-83,FB1-9,Q1,L1-2",
+    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,Q1,C1-83,FB1-9,U1-23,L1-2",
     "variants": [
       {
         "name": "USB2414"

@@ -1431,7 +1431,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+			(property "Footprint" "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 				(at 10.668 -55.372 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1443,7 +1443,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "USB2422/MJ"
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00000062A.pdf"
 				(at 9.906 -57.912 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1455,7 +1455,73 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "2-Port USB 2.0 Hi-Speed Hub Controller, 24-QFN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "USB2422/MJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "USB2422/MJ-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temp_Range" "0°C to 70°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "Yes"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6485,7 +6551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "USB2422/MJ"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00000062A.pdf"
 			(at 88.646 131.572 0)
 			(hide yes)
 			(show_name no)
@@ -6497,7 +6563,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-Port USB 2.0 Hi-Speed Hub Controller, 24-QFN"
 			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6509,6 +6575,72 @@
 			)
 		)
 		(property "Part Number" "USB2422/MJ"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USB2422/MJ"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "USB2422/MJ-ND"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_Range" "0°C to 70°C"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Logic"
+			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "Yes"
 			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)

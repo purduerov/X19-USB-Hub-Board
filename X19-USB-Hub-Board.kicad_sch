@@ -3399,7 +3399,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.amphenol-cs.com/media/wysiwyg/files/drawing/sfv_r.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3410,7 +3410,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "FFC/FPC Connector, 0.50mm Pitch, Right-Angle, 16 Circuits, Top Contact"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3467,6 +3467,72 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "Amphenol ICC (FCI)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SFV16R-1STBE1HLF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "609-1786-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temp_Range" "-55°C to 105°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "SFV16R-1STBE1HLF_0_0"
@@ -3967,20 +4033,104 @@
 		(uuid "eb856918-624c-48c6-a006-4ffa3aa427f5")
 	)
 	(no_connect
+		(at 27.94 161.29)
+		(uuid "075250c4-dc57-450f-bd12-ee67b85a28d0")
+	)
+	(no_connect
 		(at 34.29 24.13)
 		(uuid "11723b7f-9368-46d8-b2af-58590bf8d1de")
+	)
+	(no_connect
+		(at 93.98 148.59)
+		(uuid "12c8e0c4-b19b-4300-a396-c40724d01ac9")
+	)
+	(no_connect
+		(at 93.98 125.73)
+		(uuid "169b635a-3602-43c8-850a-2e6c334b4850")
+	)
+	(no_connect
+		(at 93.98 158.75)
+		(uuid "2628a54c-5e45-4de4-b51a-e62837232705")
+	)
+	(no_connect
+		(at 27.94 158.75)
+		(uuid "27e9bbf9-aa14-4178-a026-68200f54da7f")
+	)
+	(no_connect
+		(at 27.94 151.13)
+		(uuid "29226356-498a-4520-9fc7-08678c0c1fb3")
+	)
+	(no_connect
+		(at 93.98 140.97)
+		(uuid "2f6d8bd8-0f19-45dd-8d58-0df45cb7c2a9")
+	)
+	(no_connect
+		(at 27.94 148.59)
+		(uuid "361baa83-7dda-4c2d-a299-3e1031239f93")
 	)
 	(no_connect
 		(at 153.67 143.51)
 		(uuid "3e09314f-6656-435d-8322-2ff4e4a7aa58")
 	)
 	(no_connect
+		(at 27.94 168.91)
+		(uuid "41005fcd-0140-41e6-8924-e40953f52833")
+	)
+	(no_connect
 		(at 29.21 24.13)
 		(uuid "50c2f3e8-7a03-4d1d-8534-73905b211774")
 	)
 	(no_connect
+		(at 93.98 163.83)
+		(uuid "5ececb4b-ec41-4b76-8a51-7cc4c2ddcb8e")
+	)
+	(no_connect
+		(at 93.98 161.29)
+		(uuid "5f349b64-078a-474f-8b86-6b145e4dcd61")
+	)
+	(no_connect
+		(at 93.98 133.35)
+		(uuid "664237fb-cd9a-4f8c-884e-d912cc65311c")
+	)
+	(no_connect
+		(at 93.98 123.19)
+		(uuid "724d1006-0040-4faa-a3f2-09445e5b5cfd")
+	)
+	(no_connect
+		(at 27.94 125.73)
+		(uuid "76fe537e-e185-4482-8d00-75214850a127")
+	)
+	(no_connect
 		(at 210.82 144.78)
 		(uuid "78542679-65f4-414c-97f0-4018b4966a89")
+	)
+	(no_connect
+		(at 27.94 140.97)
+		(uuid "7a0c433d-b086-4208-8e60-f1745a9486db")
+	)
+	(no_connect
+		(at 93.98 138.43)
+		(uuid "83b1671e-90b1-41d9-ba4b-03d1b2e50eb5")
+	)
+	(no_connect
+		(at 93.98 156.21)
+		(uuid "879101e1-8c56-43ac-b469-c62179779dc8")
+	)
+	(no_connect
+		(at 27.94 146.05)
+		(uuid "933f8a33-0f49-485f-81e4-96ea770448bf")
+	)
+	(no_connect
+		(at 93.98 166.37)
+		(uuid "99e241de-6875-493e-b806-d28c83a2ec13")
+	)
+	(no_connect
+		(at 27.94 133.35)
+		(uuid "9bc581c5-1748-4906-9311-7806713440c7")
+	)
+	(no_connect
+		(at 93.98 146.05)
+		(uuid "9fced927-685d-445b-816d-372704aff12c")
 	)
 	(no_connect
 		(at 38.1 87.63)
@@ -3991,12 +4141,48 @@
 		(uuid "a6154145-ae52-4177-9feb-1d78d9042ed6")
 	)
 	(no_connect
+		(at 93.98 130.81)
+		(uuid "a716ccd4-60c5-4779-a9d7-f94e0ba3c6ff")
+	)
+	(no_connect
+		(at 27.94 163.83)
+		(uuid "a7a0e9a8-7442-4623-8ea7-30eddcf43274")
+	)
+	(no_connect
+		(at 93.98 151.13)
+		(uuid "ab536034-3382-4bd5-a740-d6a5ec7ac732")
+	)
+	(no_connect
+		(at 27.94 130.81)
+		(uuid "b17baa71-2a71-4b56-8d49-fa62fef4a8aa")
+	)
+	(no_connect
+		(at 27.94 123.19)
+		(uuid "c11f3496-f125-407d-a9bc-839c34db3ad2")
+	)
+	(no_connect
+		(at 27.94 156.21)
+		(uuid "d22fdead-f031-4242-9056-b8ccdcddcc6c")
+	)
+	(no_connect
+		(at 27.94 166.37)
+		(uuid "d340bc30-6991-4a9b-b6fb-cb23ff9e6b26")
+	)
+	(no_connect
+		(at 27.94 138.43)
+		(uuid "d425f0c5-98c6-4254-a594-498116cf9240")
+	)
+	(no_connect
 		(at 24.13 24.13)
 		(uuid "f2c73fd0-336d-4b6d-b7d4-3e8ef9b26011")
 	)
 	(no_connect
 		(at 39.37 24.13)
 		(uuid "f69357c0-5a64-4e23-87fa-0e3303da20c3")
+	)
+	(no_connect
+		(at 27.94 143.51)
+		(uuid "f99ccf75-52f4-45ba-9546-84b7506a1dac")
 	)
 	(wire
 		(pts
@@ -9039,7 +9225,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.amphenol-cs.com/media/wysiwyg/files/drawing/sfv_r.pdf"
 			(at 27.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9050,7 +9236,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FFC/FPC Connector, 0.50mm Pitch, Right-Angle, 16 Circuits, Top Contact"
 			(at 27.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9110,6 +9296,72 @@
 			)
 		)
 		(property "Part Number" "SFV16R-1STBE1HLF"
+			(at 27.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 27.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SFV16R-1STBE1HLF"
+			(at 27.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "609-1786-1-ND"
+			(at 27.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_Range" "-55°C to 105°C"
+			(at 27.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Connectors"
+			(at 27.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "Yes"
 			(at 27.94 63.5 0)
 			(hide yes)
 			(show_name no)

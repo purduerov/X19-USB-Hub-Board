@@ -2164,26 +2164,6 @@
 		)
 		(uuid "ffc86637-d35c-44fb-b10d-2e66b7160dd7")
 	)
-	(label "3V3_EN"
-		(at 69.85 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e64a647-9b1c-4cf1-be28-2177ace3da6f")
-	)
-	(label "1V05_EN"
-		(at 68.58 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81c77e9c-f631-4104-923f-dbe81dbc5d09")
-	)
 	(global_label "3V3_PG"
 		(shape input)
 		(at 55.88 114.3 180)

@@ -846,7 +846,7 @@
 				)
 			)
 			(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
-				(at 34.798 -10.668 0)
+				(at 34.544 -13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -857,8 +857,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "MX25V5126FZUI"
-				(at 9.652 -8.636 0)
+			(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/7434/MX25V5126F,%202.5V-3.6V,%20512Kb,%20v1.1.pdf"
+				(at 9.398 -11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -869,7 +869,73 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "512Kb (64K x 8) Serial NOR Flash Memory, SPI, 8-USON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Macronix"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MX25V5126FZUI"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "1092-1065-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temp_Range" "-40°C to 85°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "Yes"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1102,7 +1168,7 @@
 					)
 				)
 			)
-			(property "Value" "UPD720201K8-7x1-BAC-A"
+			(property "Value" "UPD720201K8-711-BAC-A"
 				(at 20.574 -50.546 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1124,7 +1190,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "UPD720201K8-711-BAC-A"
+			(property "Datasheet" "https://www.renesas.com/en/document/dst/upd720201-upd720202-datasheet.pdf"
 				(at -24.384 -50.292 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1136,8 +1202,74 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "USB 3.0 Host Controller, 4 Ports, PCIe to USB 3.0, 68-QFN"
 				(at -25.4 41.91 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Renesas Electronics Corporation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "UPD720201K8-711-BAC-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "UPD720201K8-711-BAC-ACT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temp_Range" "0°C to 85°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "Yes"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2376,7 +2508,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -55.88 90)
 					(length 7.62)
 					(name "GND"
@@ -7906,7 +8038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MX25V5126FZUI"
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/7434/MX25V5126F,%202.5V-3.6V,%20512Kb,%20v1.1.pdf"
 			(at 64.262 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -7918,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "512Kb (64K x 8) Serial NOR Flash Memory, SPI, 8-USON"
 			(at 54.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7930,6 +8062,72 @@
 			)
 		)
 		(property "Part Number" "MX25V5126FZUI"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Macronix"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MX25V5126FZUI"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1092-1065-1-ND"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_Range" "-40°C to 85°C"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Logic"
+			(at 54.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "Yes"
 			(at 54.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9057,7 +9255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "UPD720201K8-701-BAC-A"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/upd720201-upd720202-datasheet.pdf"
 			(at 138.176 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -9069,7 +9267,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 3.0 Host Controller, 4 Ports, PCIe to USB 3.0, 68-QFN"
 			(at 137.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9081,6 +9279,72 @@
 			)
 		)
 		(property "Part Number" "UPD720201K8-701-BAC-A"
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Renesas Electronics Corporation"
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UPD720201K8-711-BAC-A"
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "UPD720201K8-711-BAC-ACT-ND"
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_Range" "0°C to 85°C"
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Logic"
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "Yes"
 			(at 162.56 97.79 0)
 			(hide yes)
 			(show_name no)
