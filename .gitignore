@@ -27,3 +27,5 @@ Thumbs.db
 
 
 .history/
+# Generated local ROV hooks
+.rov-hooks/
