@@ -17,6 +17,8 @@ _autosave-*
 # KiBot / Output directories
 Generated_Outputs/
 Outputs/
+Manufacturing/
+manufacturing.zip
 
 # OS/Editor files
 .DS_Store

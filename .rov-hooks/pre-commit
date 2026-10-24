@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+repo_root=$(git rev-parse --show-toplevel) || exit 0
+cli="$repo_root/.pcb-devops-cache/scripts/rov.py"
+[ -f "$cli" ] || exit 0
+if command -v python3 >/dev/null 2>&1; then
+    rov_python=python3
+elif command -v python >/dev/null 2>&1; then
+    rov_python=python
+else
+    exit 0
+fi
+"$rov_python" "$cli" board validate --project-dir "$repo_root" --hook

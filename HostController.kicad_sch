@@ -8005,7 +8005,7 @@
 		(dnp no)
 		(uuid "6a59dd84-e621-44cc-9923-e328defbcace")
 		(property "Reference" "U1"
-			(at 39.116 110.998 0)
+			(at 39.37 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
