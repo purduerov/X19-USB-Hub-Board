@@ -27,3 +27,10 @@ Thumbs.db
 # Central devops cache
 .pcb-devops-cache/
 
+
+.history/
+# Generated local ROV hooks
+.rov-hooks/
+
+# KiCad project backup archives
+*-backups/
