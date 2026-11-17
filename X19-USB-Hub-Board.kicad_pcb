@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.6312)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -55,31 +55,31 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.2104)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.4)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 1.065)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.6)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.2104)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.4)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
@@ -99,9 +99,10 @@
 				(color "White")
 			)
 			(copper_finish "OSP")
-			(dielectric_constraints no)
+			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
+		(solder_mask_min_width 0.13)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -117,6 +118,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -17897,7 +17899,7 @@
 		(property "Reference" "C8"
 			(at 0 -0.0942 90)
 			(layer "B.SilkS")
-			(uuid "b079c0e1-5165-429a-a9bd-10180231daf4")
+			(uuid "5e69499b-0de0-443e-89b0-a7fb6bedcf1c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17909,7 +17911,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "d39a9e89-59b1-4694-b538-cad254777c44")
+			(uuid "6e8bfbe8-0129-46e6-82d8-0e02f0853edf")
 			(effects
 				(font
 					(size 1 1)
@@ -17921,7 +17923,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "106bf3c7-7c31-412e-974b-02c9d55d27e6")
+			(uuid "8c2bfb9b-fbc0-4bd7-921b-b51b9227abef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17932,7 +17934,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ec85860-83e8-4165-b8a0-62d9dbe1c87b")
+			(uuid "f4d04205-2d21-408c-b17d-fd87a638c5b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42985,7 +42987,7 @@
 		(property "Reference" "C9"
 			(at 0.029654 0.0898 90)
 			(layer "B.SilkS")
-			(uuid "a51386d0-b27e-41fc-acc2-f677b5296b45")
+			(uuid "495f36f8-206f-477d-815c-b78beca26d6f")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -42997,7 +42999,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "cb289a0a-8710-4911-b067-b4089fa7d4e1")
+			(uuid "33f201df-3b1f-4916-8fd4-22ab6b3b1484")
 			(effects
 				(font
 					(size 1 1)
@@ -43009,7 +43011,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5de084ae-a651-4e4c-a61a-731ae99ac896")
+			(uuid "340b1be9-c114-4a21-b22e-a4403433f489")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43020,7 +43022,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eeff1d58-e579-414a-8808-a591fe630e9e")
+			(uuid "a7983905-77a3-4702-9bbc-eada935070c7")
 			(effects
 				(font
 					(size 1.27 1.27)
