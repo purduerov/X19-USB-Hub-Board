@@ -3440,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS62A02APDDC"
+		(property "Part Number" "TPS62A02APDDCR"
 			(at 92.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4794,7 +4794,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS62A02APDDC"
+		(property "Part Number" "TPS62A02APDDCR"
 			(at 92.71 114.3 0)
 			(hide yes)
 			(show_name no)
