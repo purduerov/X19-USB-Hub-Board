@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(tags "UPD720201K8-711-BAC-A ")
+	(tags "UPD720201K8-701-BAC-A")
 	(property "Reference" "REF**"
 		(at -1.5 -5.5 0)
 		(unlocked yes)

@@ -20584,7 +20584,7 @@
 		(layer "F.Cu")
 		(uuid "69865df5-1bb2-49da-87f0-26866da89460")
 		(at 83.6348 74.2348 -90)
-		(tags "UPD720201K8-711-BAC-A ")
+		(tags "UPD720201K8-701-BAC-A")
 		(property "Reference" "U2"
 			(at -0.0254 0.0762 90)
 			(unlocked yes)

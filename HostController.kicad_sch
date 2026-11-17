@@ -914,7 +914,7 @@
 					)
 				)
 			)
-			(property "Value" "UPD720201K8-711-BAC-A"
+			(property "Value" "UPD720201K8-701-BAC-A"
 				(at 20.574 -50.546 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -970,7 +970,7 @@
 					)
 				)
 			)
-			(property "MPN" "UPD720201K8-711-BAC-A"
+			(property "Part Number" "UPD720201K8-701-BAC-A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -981,7 +981,18 @@
 					)
 				)
 			)
-			(property "DigiKey" "UPD720201K8-711-BAC-ACT-ND"
+			(property "MPN" "UPD720201K8-701-BAC-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "UPD720201K8-701-BAC-A-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1025,7 +1036,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "UPD720201K8-711-BAC-A"
+			(property "ki_keywords" "UPD720201K8-701-BAC-A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
