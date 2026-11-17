@@ -2056,6 +2056,12 @@
 		(uuid "eaeb86bf-833f-4994-b4a3-6c0f72e214ba")
 	)
 	(junction
+		(at 184.15 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e86c5c-676c-498f-b26d-15513561bcc8")
+	)
+	(junction
 		(at 50.8 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2156,6 +2162,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8815bac-f7d5-4c0d-90a1-cf058833d2f6")
+	)
+	(junction
+		(at 184.15 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbccc058-61a8-49c3-a69b-9854db483898")
 	)
 	(junction
 		(at 74.93 63.5)
@@ -2542,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "3ff1eb82-b680-4189-b812-6eb3f47e7804")
+	)
+	(wire
+		(pts
+			(xy 181.61 54.61) (xy 184.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4002312f-02d3-43cb-a549-b0ddfaa12fdc")
 	)
 	(wire
 		(pts
@@ -2985,6 +3007,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 106.68) (xy 184.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf8d5b4-fed8-4174-81ed-1f57b5277129")
+	)
+	(wire
+		(pts
 			(xy 58.42 114.3) (xy 68.58 114.3)
 		)
 		(stroke
@@ -3042,6 +3074,16 @@
 			(type default)
 		)
 		(uuid "b59e75c2-2548-498a-800a-3e160f4ceed1")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba79879-b2e1-4f84-bdaf-b8be6cfd1ffb")
 	)
 	(wire
 		(pts
@@ -3232,6 +3274,16 @@
 			(type default)
 		)
 		(uuid "e498991f-f622-4de1-a0e6-d730d5994ea3")
+	)
+	(wire
+		(pts
+			(xy 173.99 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e760282a-c864-49f4-b6bb-0fe29d0ed5cc")
 	)
 	(wire
 		(pts
@@ -4404,6 +4456,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 54.61 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cb4354e-0658-48aa-92eb-bd70445381d8")
+		(property "Reference" "C78"
+			(at 180.34 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.7938 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CC0402KRX7R8BB104"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c776f2da-3d05-44a2-a5c3-2b41b989d09f")
+		)
+		(pin "1"
+			(uuid "7291a94e-5005-4c94-a57c-b4a85c2e6be3")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/5968cd2f-6643-449b-abda-591b3f0809fa"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/86dea87d-3a90-48c5-9af8-d4b53f343864"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/8df78385-7746-4c07-88f4-6098a20cd10e"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 184.15 105.41 0)
 		(unit 1)
@@ -4426,7 +4606,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 180.086 104.14 0)
+			(at 180.594 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4705,6 +4885,96 @@
 				)
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f1d9897-d5d3-4115-afb5-a5fff4e21e04")
+		(property "Reference" "#PWR096"
+			(at 173.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.926 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22d874a8-0b77-45f7-8a7b-3943102ce219")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/5968cd2f-6643-449b-abda-591b3f0809fa"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/86dea87d-3a90-48c5-9af8-d4b53f343864"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/8df78385-7746-4c07-88f4-6098a20cd10e"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -5622,7 +5892,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 180.086 52.07 0)
+			(at 180.848 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6411,6 +6681,96 @@
 				)
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
 					(reference "Y3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "902ad477-421f-4a9e-ab9e-445ecb560180")
+		(property "Reference" "#PWR0100"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.926 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23ba12f8-4047-489d-a576-8d13ea3da917")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/5968cd2f-6643-449b-abda-591b3f0809fa"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/86dea87d-3a90-48c5-9af8-d4b53f343864"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/8df78385-7746-4c07-88f4-6098a20cd10e"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -7248,6 +7608,134 @@
 				)
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 106.68 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c507ef39-05cf-44bb-8672-2d05522c7ab2")
+		(property "Reference" "C74"
+			(at 180.34 108.204 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.7938 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CC0402KRX7R8BB104"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "94c93d22-40e4-4607-b900-54dc2ee71ab0")
+		)
+		(pin "1"
+			(uuid "a95f6115-b7b8-4c4a-8546-5c10852b8395")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/5968cd2f-6643-449b-abda-591b3f0809fa"
+					(reference "C77")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/86dea87d-3a90-48c5-9af8-d4b53f343864"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/8df78385-7746-4c07-88f4-6098a20cd10e"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/9bf9bcfa-154f-41b0-a958-9947ece707b1"
+					(reference "C75")
 					(unit 1)
 				)
 			)

@@ -3913,16 +3913,16 @@
 		(uuid "26fa3e72-b873-40bc-8fdf-652cd2c84730")
 	)
 	(junction
-		(at 132.08 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3761bf32-8d76-4983-b436-11071a953954")
-	)
-	(junction
 		(at 44.45 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b9cb83a-a461-44b7-a508-2bd7584b130b")
+	)
+	(junction
+		(at 214.63 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b814158-bff0-4413-85ce-8d14b47c2e08")
 	)
 	(junction
 		(at 69.85 76.2)
@@ -3947,12 +3947,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84e39e76-0ca4-4c4a-a418-c620363780c6")
-	)
-	(junction
-		(at 121.92 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91056934-5cd0-4c0a-bdd2-99b587c25d16")
 	)
 	(junction
 		(at 201.93 133.35)
@@ -4296,16 +4290,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 132.08 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d39213e-ba25-4fe7-9189-0e56cf1fd58a")
-	)
-	(wire
-		(pts
 			(xy 38.1 58.42) (xy 44.45 58.42)
 		)
 		(stroke
@@ -4396,6 +4380,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 133.35) (xy 219.71 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376990b9-8d1f-4328-8c8f-ecc26e35dbc4")
+	)
+	(wire
+		(pts
 			(xy 44.45 95.25) (xy 69.85 95.25)
 		)
 		(stroke
@@ -4443,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "4363b2d6-dbaf-4c67-b3f8-63a1bae2985c")
+	)
+	(wire
+		(pts
+			(xy 194.31 152.4) (xy 219.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c9cdad-9930-4c40-a79d-e043b88c4465")
 	)
 	(wire
 		(pts
@@ -4596,26 +4600,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 116.84) (xy 132.08 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a95cf4a-381f-4591-a9e1-ccc9ed0f2c34")
-	)
-	(wire
-		(pts
-			(xy 132.08 107.95) (xy 132.08 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dec6690-9f10-4013-8c58-01eb582ff775")
-	)
-	(wire
-		(pts
 			(xy 111.76 97.79) (xy 111.76 102.87)
 		)
 		(stroke
@@ -4736,6 +4720,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 133.35) (xy 219.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f51a1b2-ef8f-450a-9e9d-df650583a613")
+	)
+	(wire
+		(pts
 			(xy 201.93 144.78) (xy 194.31 144.78)
 		)
 		(stroke
@@ -4743,16 +4737,6 @@
 			(type default)
 		)
 		(uuid "90c41d4c-c1b2-41a9-bb20-ea4268c17413")
-	)
-	(wire
-		(pts
-			(xy 142.24 97.79) (xy 142.24 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "931b2ccb-3ab1-4811-846d-c0eba825764b")
 	)
 	(wire
 		(pts
@@ -4886,16 +4870,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 142.24 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad032a36-2298-4ba8-91c0-a5e425aae0ca")
-	)
-	(wire
-		(pts
 			(xy 257.81 140.97) (xy 257.81 143.51)
 		)
 		(stroke
@@ -4913,16 +4887,6 @@
 			(type default)
 		)
 		(uuid "b1329e72-d631-47d3-b815-96bf6ad0920f")
-	)
-	(wire
-		(pts
-			(xy 121.92 116.84) (xy 132.08 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b686b605-138e-440c-80fb-77fc1fa2b801")
 	)
 	(wire
 		(pts
@@ -4976,6 +4940,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 152.4) (xy 219.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11285d9-25cb-45af-96cb-bc9192a2bd89")
+	)
+	(wire
+		(pts
 			(xy 194.31 144.78) (xy 194.31 146.05)
 		)
 		(stroke
@@ -5013,16 +4987,6 @@
 			(type default)
 		)
 		(uuid "c70a8560-732a-448f-82e6-6c8780942d08")
-	)
-	(wire
-		(pts
-			(xy 132.08 116.84) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca94d56e-dba2-4672-b3bb-d786a0662f17")
 	)
 	(wire
 		(pts
@@ -5193,16 +5157,6 @@
 			(type default)
 		)
 		(uuid "fb8da270-8304-40a6-90e9-071d0892bad6")
-	)
-	(wire
-		(pts
-			(xy 142.24 107.95) (xy 142.24 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4a05e1-91ca-4905-bcf2-b5da71340fac")
 	)
 	(wire
 		(pts
@@ -5418,30 +5372,6 @@
 			)
 		)
 	)
-	(global_label "3V3_PG"
-		(shape input)
-		(at 132.08 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06d4e72d-6bcb-4644-872a-4c883a19875d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 87.7896 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PCIE_PWR_EN"
 		(shape input)
 		(at 81.28 76.2 0)
@@ -5575,30 +5505,6 @@
 		(uuid "9d0b2fd0-bbd0-4551-a4b2-eddaa225a798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.6688 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1V05_PG"
-		(shape input)
-		(at 142.24 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b257ba27-4fe8-40cb-a4df-2282061b7135")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 86.5801 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7342,214 +7248,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 132.08 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4be2f0e2-2215-41dc-bf12-987372a54510")
-		(property "Reference" "D4"
-			(at 132.334 103.124 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 134.62 106.6164 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 132.08 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 132.08 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "LTST-C190GKT"
-			(at 132.08 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bd7df771-15e7-4414-84c1-b0fd508a6cce")
-		)
-		(pin "1"
-			(uuid "4cb02dc6-92a0-45d4-b09c-537b2eb32f29")
-		)
-		(instances
-			(project "X19-USB-Hub-Board"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 142.24 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bfdfa6f-9a6a-4c0e-bc01-6eef8278f885")
-		(property "Reference" "D5"
-			(at 142.494 103.124 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 144.78 106.6164 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 142.24 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 142.24 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "LTST-C190GKT"
-			(at 142.24 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6c722679-c827-4c83-a8d3-b913391a1f35")
-		)
-		(pin "1"
-			(uuid "4d347100-5e47-4756-861f-b3d3e3102cd2")
-		)
-		(instances
-			(project "X19-USB-Hub-Board"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
 		(at 121.92 105.41 90)
 		(unit 1)
 		(body_style 1)
@@ -7986,121 +7684,6 @@
 			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 142.24 113.03 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d5f65d1-ef46-4609-beeb-f64cfe73d54e")
-		(property "Reference" "R8"
-			(at 144.018 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 144.018 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 142.24 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 142.24 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 142.24 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "RC0603FR-07100RL"
-			(at 142.24 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0744e18c-a93a-42e1-af72-739d9c4951c6")
-		)
-		(pin "2"
-			(uuid "8a647feb-8e2b-43fd-9513-4e342fe56e0d")
-		)
-		(instances
-			(project "X19-USB-Hub-Board"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8556,121 +8139,6 @@
 			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 132.08 113.03 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b111db1-9b79-4854-92cc-a5e602a18259")
-		(property "Reference" "R7"
-			(at 133.858 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 134.112 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "RC0603FR-07100RL"
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8126dd1d-ff90-46dc-942e-4001345bb5f5")
-		)
-		(pin "2"
-			(uuid "6169415e-1f30-483a-9310-13c7e9d7a985")
-		)
-		(instances
-			(project "X19-USB-Hub-Board"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9859,6 +9327,121 @@
 			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 138.43 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6d1743f-e1c9-40b4-9b48-b17b909cf51c")
+		(property "Reference" "C82"
+			(at 220.472 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 220.726 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CC0805KRX5R8BB106"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb43409c-9ddd-4c39-9800-f315de999d9e")
+		)
+		(pin "2"
+			(uuid "fea63e76-aa6f-40fb-b316-84d28310fb11")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "C82")
 					(unit 1)
 				)
 			)
