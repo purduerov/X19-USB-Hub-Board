@@ -9232,7 +9232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UPD720201K8-7x1-BAC-A"
+		(property "Value" "UPD720201K8-701-BAC-A"
 			(at 164.7033 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9300,7 +9300,7 @@
 				)
 			)
 		)
-		(property "MPN" "UPD720201K8-711-BAC-A"
+		(property "MPN" "UPD720201K8-701-BAC-A"
 			(at 162.56 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "UPD720201K8-711-BAC-ACT-ND"
+		(property "DigiKey" "UPD720201K8-701-BAC-A-ND"
 			(at 162.56 97.79 0)
 			(hide yes)
 			(show_name no)
