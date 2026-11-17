@@ -339,7 +339,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1016000|647700|bf781325-354a-4e2f-8e0e-f570381c502f|7aa2318c-ca91-44e8-83c0-89b3cc2db3d0|/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797|/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797|/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797",
+        ""
+      ],
+      [
+        "multiple_net_names|1016000|673100|54ace0ec-8a01-4236-be24-38f330c95b36|ae8ed63f-9447-4c7b-97c9-471b8cbee5c4|/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797|/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797|/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797",
+        ""
+      ],
+      [
+        "multiple_net_names|2679700|1409700|f20cd5b6-076b-4733-9e79-841cb63c1790|fd1fd4a0-d47c-4917-a813-910f75a69211|/95e7ccb6-701a-4570-b93f-f5431fbf25de|/95e7ccb6-701a-4570-b93f-f5431fbf25de|/95e7ccb6-701a-4570-b93f-f5431fbf25de",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -907,12 +920,8 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "TP1-10,NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,Q1,C1-83,FB1-9,U1-23,L1-2",
-    "variants": [
-      {
-        "name": "USB2414"
-      }
-    ]
+    "used_designators": "TP1-10,NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,U1-23,C1-83,FB1-9,Q1,L1-2",
+    "variants": []
   },
   "sheets": [
     [

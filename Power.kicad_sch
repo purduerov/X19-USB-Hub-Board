@@ -1445,12 +1445,6 @@
 		(uuid "33c3364b-c8d0-4961-8af5-4776c5ccf637")
 	)
 	(junction
-		(at 142.2224 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35e4c23d-9103-4a5a-837c-605a715feafb")
-	)
-	(junction
 		(at 62.23 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1485,6 +1479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "973e83a9-106c-4116-a376-63659645bddd")
+	)
+	(junction
+		(at 142.24 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97b46330-b131-4fe4-87e7-ecf6ad29a734")
 	)
 	(junction
 		(at 124.46 111.76)
@@ -1631,16 +1631,6 @@
 			(type default)
 		)
 		(uuid "1e515a32-afff-4572-8562-48027b332b99")
-	)
-	(wire
-		(pts
-			(xy 142.2224 59.69) (xy 146.05 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a7b3cc-ca24-45c0-b11c-9b7196d0329d")
 	)
 	(wire
 		(pts
@@ -1984,6 +1974,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 59.69) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883f36cd-0d42-49cd-a84e-e24acee8e1b4")
+	)
+	(wire
+		(pts
 			(xy 74.93 118.11) (xy 80.01 118.11)
 		)
 		(stroke
@@ -2014,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 142.2224 59.69)
+			(xy 135.89 59.69) (xy 142.24 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2833,18 +2833,18 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 142.2224 59.69 0)
+		(at 142.24 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "383d8cb6-5437-4a34-8b6e-8b19dfa7c654")
 		(property "Reference" "TP5"
-			(at 140.9524 56.388 0)
+			(at 140.97 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2855,7 +2855,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 139.6824 57.6579 0)
+			(at 139.7 57.6579 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +2867,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 137.1424 59.69 0)
+			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +2878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.1424 59.69 0)
+			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +2889,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 142.2224 59.69 0)
+			(at 142.24 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3300,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3734,7 +3734,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4654,7 +4654,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

@@ -13,6 +13,9 @@ _autosave-*
 *-backups/
 fp-info-cache
 
+# KiCad local history snapshots
+.history/
+
 # KiCad lock files
 *.lck
 
