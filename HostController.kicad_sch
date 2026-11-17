@@ -3122,6 +3122,10 @@
 		(uuid "88f677da-e884-4438-83bd-e61126a00ece")
 	)
 	(no_connect
+		(at 116.84 82.55)
+		(uuid "89e09cdd-e786-4ac1-9836-501e07b3bbe4")
+	)
+	(no_connect
 		(at 116.84 106.68)
 		(uuid "8ef98e93-96d1-4371-931d-81b6a7f06abf")
 	)
@@ -4563,16 +4567,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 116.84 82.55)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "a557359c-ec20-4722-ad22-95feca3370b5")
-	)
-	(wire
-		(pts
 			(xy 66.04 39.37) (xy 66.04 40.64)
 		)
 		(stroke
@@ -5646,30 +5640,6 @@
 		(uuid "c3c29882-90f2-4b9a-88a4-df961cda1055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.6897 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_DET_WAKE"
-		(shape input)
-		(at 50.8 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d60cae36-59cf-44c4-848b-b8f8e334354b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.2402 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

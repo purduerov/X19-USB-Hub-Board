@@ -206,7 +206,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 1.0,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.09,
@@ -916,7 +916,7 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,U1-23,C1-83,FB1-9,Q1,L1-2",
+    "used_designators": "TP1-10,NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-8,U1-23,C1-83,FB1-9,Q1,L1-2",
     "variants": [
       {
         "name": "USB2414"

@@ -1043,6 +1043,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3913,10 +4037,28 @@
 		(uuid "26fa3e72-b873-40bc-8fdf-652cd2c84730")
 	)
 	(junction
+		(at 208.28 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32fa40ee-b30d-483c-ada9-d08dc1167283")
+	)
+	(junction
+		(at 247.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36627ed0-0d6e-4063-ae39-f11950f583dc")
+	)
+	(junction
 		(at 44.45 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b9cb83a-a461-44b7-a508-2bd7584b130b")
+	)
+	(junction
+		(at 73.66 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48078ef9-e971-4f49-852f-16037d3c388d")
 	)
 	(junction
 		(at 214.63 133.35)
@@ -3925,10 +4067,10 @@
 		(uuid "4b814158-bff0-4413-85ce-8d14b47c2e08")
 	)
 	(junction
-		(at 69.85 76.2)
+		(at 73.66 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56b06042-ba73-4842-8c85-5998ae409ce0")
+		(uuid "615b3cf2-3bae-4e40-bd2b-53a717dd3edd")
 	)
 	(junction
 		(at 212.09 133.35)
@@ -3949,6 +4091,12 @@
 		(uuid "84e39e76-0ca4-4c4a-a418-c620363780c6")
 	)
 	(junction
+		(at 55.88 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6e331c-a24e-45ff-b9d3-e1a445366a9e")
+	)
+	(junction
 		(at 201.93 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,10 +4109,22 @@
 		(uuid "93022b61-75ae-4d18-bd48-914d61de4d97")
 	)
 	(junction
+		(at 69.85 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987d0287-536b-4e63-9950-e9b0c0c5a4d1")
+	)
+	(junction
 		(at 194.31 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b212919-c13f-4602-8db8-380dbcb0f5aa")
+	)
+	(junction
+		(at 73.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e38d930-6031-4578-a764-b195300cac16")
 	)
 	(junction
 		(at 44.45 45.72)
@@ -3989,6 +4149,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4e8b67c-0f3b-476f-a590-d67a5284d593")
+	)
+	(junction
+		(at 58.42 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf5cc147-f41a-4e44-9f1b-e7c7d2c8c998")
 	)
 	(junction
 		(at 171.45 133.35)
@@ -4025,6 +4191,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb856918-624c-48c6-a006-4ffa3aa427f5")
+	)
+	(junction
+		(at 52.07 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f60b536b-c1ff-4f77-8f9a-4428f38c2550")
 	)
 	(no_connect
 		(at 27.94 161.29)
@@ -4180,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 45.72) (xy 73.66 45.72)
+			(xy 54.61 45.72) (xy 58.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4210,7 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 81.28) (xy 81.28 81.28)
+			(xy 38.1 81.28) (xy 78.74 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4260,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 54.61) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc4a375-76ca-4e61-9bd7-ef3ff90a9ea8")
+	)
+	(wire
+		(pts
 			(xy 69.85 86.36) (xy 69.85 76.2)
 		)
 		(stroke
@@ -4297,6 +4479,16 @@
 			(type default)
 		)
 		(uuid "1f751e3d-bb8e-4066-9d5b-d51a142ca262")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9ad796-c151-4556-817e-f901f8dffae2")
 	)
 	(wire
 		(pts
@@ -4390,7 +4582,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 69.85 95.25)
+			(xy 44.45 95.25) (xy 55.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4437,6 +4629,16 @@
 			(type default)
 		)
 		(uuid "4363b2d6-dbaf-4c67-b3f8-63a1bae2985c")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 73.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aa8df7-5610-454a-a08f-c11bca504ca4")
 	)
 	(wire
 		(pts
@@ -4550,7 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 71.12) (xy 73.66 78.74)
+			(xy 73.66 60.96) (xy 73.66 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4597,6 +4799,16 @@
 			(type default)
 		)
 		(uuid "6936d187-82fd-4dc3-a4b8-3d60343e5eba")
+	)
+	(wire
+		(pts
+			(xy 52.07 83.82) (xy 78.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699e3011-23bc-4a22-93c7-d3f9404aa8e7")
 	)
 	(wire
 		(pts
@@ -4650,6 +4862,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 45.72) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d45554-080b-451a-ae66-776155f9f3de")
+	)
+	(wire
+		(pts
 			(xy 201.93 133.35) (xy 201.93 135.89)
 		)
 		(stroke
@@ -4700,6 +4922,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 54.61) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859dd165-b553-45de-b2f6-6e59b0bc4c40")
+	)
+	(wire
+		(pts
 			(xy 44.45 50.8) (xy 44.45 58.42)
 		)
 		(stroke
@@ -4740,6 +4972,26 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 35.56) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f21d72-6994-46c2-ac49-e3b00f51766f")
+	)
+	(wire
+		(pts
+			(xy 201.93 133.35) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a29f63-dd29-49aa-b0b0-08767bda6553")
+	)
+	(wire
+		(pts
 			(xy 101.6 115.57) (xy 101.6 116.84)
 		)
 		(stroke
@@ -4767,6 +5019,16 @@
 			(type default)
 		)
 		(uuid "9b8bb052-e1c5-4689-a1fa-8cf0c8ac826c")
+	)
+	(wire
+		(pts
+			(xy 72.39 35.56) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15de7ef-c888-4347-b236-0cc5ebf8b57c")
 	)
 	(wire
 		(pts
@@ -4810,16 +5072,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 133.35) (xy 212.09 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51617e8-d71e-4beb-ab7f-6415978381e6")
-	)
-	(wire
-		(pts
 			(xy 171.45 142.24) (xy 171.45 143.51)
 		)
 		(stroke
@@ -4830,7 +5082,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 140.97) (xy 257.81 140.97)
+			(xy 243.84 140.97) (xy 247.65 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4850,7 +5102,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 81.28 83.82)
+			(xy 38.1 83.82) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4890,6 +5142,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 60.96) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b593ce48-7394-4048-88bf-0968382bdcc0")
+	)
+	(wire
+		(pts
 			(xy 194.31 55.88) (xy 181.61 55.88)
 		)
 		(stroke
@@ -4900,7 +5162,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 81.28 78.74)
+			(xy 55.88 95.25) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76926d3-8e31-4d70-ad4b-cd6ce4c1ff0b")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4910,13 +5182,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 81.28 76.2)
+			(xy 69.85 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b914aa9b-fd48-4450-858a-c23d0c58e562")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.23) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b9fb6172-b751-490f-9f58-4d5a3b50e658")
 	)
 	(wire
 		(pts
@@ -4990,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 71.12) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c8193f12-b605-4110-b433-3fec4cc7f364")
+	)
+	(wire
+		(pts
 			(xy 101.6 107.95) (xy 101.6 110.49)
 		)
 		(stroke
@@ -5060,6 +5352,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 133.35) (xy 212.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd11f91a-ca1a-4aab-8d06-8fe14f65d4c5")
+	)
+	(wire
+		(pts
 			(xy 210.82 144.78) (xy 209.55 144.78)
 		)
 		(stroke
@@ -5070,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 45.72) (xy 73.66 66.04)
+			(xy 73.66 35.56) (xy 73.66 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5117,6 +5419,16 @@
 			(type default)
 		)
 		(uuid "e7d8d1e7-ac3d-4e39-a51a-60c377346259")
+	)
+	(wire
+		(pts
+			(xy 247.65 140.97) (xy 257.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9456186-6438-4fe6-a10a-0e3974b6fde0")
 	)
 	(wire
 		(pts
@@ -5374,7 +5686,7 @@
 	)
 	(global_label "PCIE_PWR_EN"
 		(shape input)
-		(at 81.28 76.2 0)
+		(at 78.74 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5384,7 +5696,7 @@
 		)
 		(uuid "17a60e9b-e545-42f5-bca1-bfed09b89598")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9651 76.2 0)
+			(at 94.4251 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +5758,7 @@
 	)
 	(global_label "PCIE_DET_WAKE"
 		(shape input)
-		(at 81.28 78.74 0)
+		(at 78.74 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5456,7 +5768,7 @@
 		)
 		(uuid "3f9cbdbd-a3d2-4bbe-b499-d9e081db2496")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8398 78.74 0)
+			(at 96.2998 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +5830,7 @@
 	)
 	(global_label "PCIE_RST_B"
 		(shape input)
-		(at 81.28 83.82 0)
+		(at 78.74 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5528,7 +5840,7 @@
 		)
 		(uuid "b3cb10be-454a-4a32-a279-1b4925512383")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2113 83.82 0)
+			(at 92.6713 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,7 +5878,7 @@
 	)
 	(global_label "PCIE_CLKREQ_N"
 		(shape input)
-		(at 81.28 81.28 0)
+		(at 78.74 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5576,7 +5888,7 @@
 		)
 		(uuid "e8d40cca-2283-41ce-8eb6-ca5a019f10d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.1423 81.28 0)
+			(at 96.6023 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,7 +6210,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 73.66 68.58 0)
+		(at 73.66 58.42 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5908,7 +6221,7 @@
 		(dnp no)
 		(uuid "0a8db841-23e6-4af9-b3ed-fec0222337ac")
 		(property "Reference" "R2"
-			(at 76.2 67.3099 0)
+			(at 71.882 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5918,8 +6231,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
-			(at 76.2 69.8499 0)
+		(property "Value" "10k"
+			(at 71.882 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5929,8 +6242,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 68.58 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +6254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 68.58 0)
+			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5952,7 +6265,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 73.66 68.58 0)
+			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,7 +6276,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 73.66 68.58 0)
+			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5974,7 +6287,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 73.66 68.58 0)
+			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +6298,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-075K1L"
-			(at 73.66 68.58 0)
+			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,6 +7560,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 208.28 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b297a64-e73a-496c-a345-f1965cb74039")
+		(property "Reference" "TP3"
+			(at 207.01 130.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 205.74 131.3179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 208.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d75ef2b7-95ec-4088-8804-83dccdb1c7f0")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 121.92 105.41 90)
 		(unit 1)
@@ -8052,6 +8445,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 58.42 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f11087b-4f93-4b68-ac89-d795d6167147")
+		(property "Reference" "TP1"
+			(at 59.69 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 60.96 43.6879 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 63.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de1003aa-962e-4862-927e-154a52c9dffa")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ5.0A")
 		(at 171.45 138.43 270)
 		(unit 1)
@@ -8139,6 +8611,166 @@
 			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 247.65 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "825ccb96-c472-4e1e-b3a1-68319c717afa")
+		(property "Reference" "TP2"
+			(at 246.38 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1V05_PG"
+			(at 245.11 138.9379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 242.57 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 247.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f545fed-bac7-4c20-94ad-feb8664ba7e0")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 52.07 83.82 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "874d1c7f-a867-42e7-8ec8-ecbe957df858")
+		(property "Reference" "TP9"
+			(at 53.34 87.122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCIE_RST_B"
+			(at 54.61 85.8521 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 52.07 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ad5e4f4-40c0-48e6-8032-3dfafd85ae9d")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8984,6 +9616,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 73.66 71.12 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc0929bc-2bdd-47dc-bd09-c76c27093141")
+		(property "Reference" "TP10"
+			(at 76.962 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCIE_DET_WAKE"
+			(at 75.6921 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 73.66 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffc5d17c-525e-4677-b86a-1d6b7d533acb")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 97.79 0)
 		(unit 1)
@@ -9255,6 +9967,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 55.88 95.25 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eaec5b66-56d7-4bdf-8848-79af0856ead9")
+		(property "Reference" "TP6"
+			(at 57.15 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 97.2821 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 60.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 55.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec204dfc-5fd7-45aa-94e4-401065f22c88")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 214.63 130.81 0)
 		(mirror y)
@@ -9327,6 +10119,120 @@
 			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 77.47 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5d5e283-9a7f-4fed-a9dd-4144dd12293d")
+		(property "Reference" "R7"
+			(at 79.248 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 79.248 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-075K1L"
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d117212-d039-45bc-a345-1e698cbc03f7")
+		)
+		(pin "2"
+			(uuid "ee4cedfe-2392-4307-8b92-673af5b6a4fe")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de"
+					(reference "R7")
 					(unit 1)
 				)
 			)
