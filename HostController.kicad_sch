@@ -816,7 +816,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rov_logic:MX25V5126FZUI"
+		(symbol "X19-USB-Hub-Board:MX25V5126FZUI"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1149,7 +1149,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rov_logic:UPD720201K8-7x1-BAC-A"
+		(symbol "X19-USB-Hub-Board:UPD720201K8-7x1-BAC-A"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1178,7 +1178,7 @@
 					)
 				)
 			)
-			(property "Footprint" "rov_logic:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
+			(property "Footprint" "X19-USB-Hub-Board:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 				(at -23.876 -52.578 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7964,7 +7964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rov_logic:MX25V5126FZUI")
+		(lib_id "X19-USB-Hub-Board:MX25V5126FZUI")
 		(at 54.61 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -9180,7 +9180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rov_logic:UPD720201K8-7x1-BAC-A")
+		(lib_id "X19-USB-Hub-Board:UPD720201K8-7x1-BAC-A")
 		(at 162.56 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -9213,7 +9213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rov_logic:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
+		(property "Footprint" "X19-USB-Hub-Board:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 			(at 138.684 150.368 0)
 			(hide yes)
 			(show_name no)

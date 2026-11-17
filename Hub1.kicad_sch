@@ -1402,7 +1402,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rov_logic:USB2422_MJ"
+		(symbol "X19-USB-Hub-Board:USB2422_MJ"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1431,7 +1431,7 @@
 					)
 				)
 			)
-			(property "Footprint" "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+			(property "Footprint" "X19-USB-Hub-Board:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 				(at 10.668 -55.372 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6866,7 +6866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rov_logic:USB2422_MJ")
+		(lib_id "X19-USB-Hub-Board:USB2422_MJ")
 		(at 78.74 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -6899,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rov_logic:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+		(property "Footprint" "X19-USB-Hub-Board:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 89.408 129.032 0)
 			(hide yes)
 			(show_name no)

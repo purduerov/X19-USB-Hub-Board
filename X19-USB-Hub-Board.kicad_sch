@@ -3480,7 +3480,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rov_connectors:SFV16R-1STBE1HLF"
+		(symbol "X19-USB-Hub-Board:SFV16R-1STBE1HLF"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3511,7 +3511,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "rov_connectors:AMPHENOL_SFV16R-1STBE1HLF"
+			(property "Footprint" "X19-USB-Hub-Board:AMPHENOL_SFV16R-1STBE1HLF"
 				(at 0.508 -31.242 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9201,7 +9201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_connectors:0436500227"
+		(property "Footprint" "X19-USB-Hub-Board:0436500227"
 			(at 158.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9283,7 +9283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rov_connectors:SFV16R-1STBE1HLF")
+		(lib_id "X19-USB-Hub-Board:SFV16R-1STBE1HLF")
 		(at 27.94 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -9313,7 +9313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_connectors:AMPHENOL_SFV16R-1STBE1HLF"
+		(property "Footprint" "X19-USB-Hub-Board:AMPHENOL_SFV16R-1STBE1HLF"
 			(at 28.448 94.742 0)
 			(hide yes)
 			(show_name no)
