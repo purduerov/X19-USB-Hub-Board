@@ -49420,7 +49420,7 @@
 				)
 			)
 		)
-		(property "Part Number" "BAT54W"
+		(property "Part Number" "BAT54WT-TP"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
