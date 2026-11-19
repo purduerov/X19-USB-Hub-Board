@@ -8639,7 +8639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1V05_PG"
+		(property "Value" "~{PWR_RST}"
 			(at 251.46 138.9379 0)
 			(hide yes)
 			(show_name no)
