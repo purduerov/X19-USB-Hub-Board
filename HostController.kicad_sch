@@ -5,6 +5,130 @@
 	(uuid "bb7680ba-3072-4556-93ff-18c342442207")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3065,6 +3189,12 @@
 		(uuid "e2dda559-4200-4a56-b2ae-b9e624fedbd0")
 	)
 	(junction
+		(at 95.25 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d72780-0422-417d-9cec-eb63dabbfdb1")
+	)
+	(junction
 		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4438,6 +4568,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 80.01) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "92a9d04e-4984-4ab2-ad38-daa1316194f3")
+	)
+	(wire
+		(pts
 			(xy 78.74 57.15) (xy 87.63 57.15)
 		)
 		(stroke
@@ -4448,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 80.01) (xy 116.84 80.01)
+			(xy 50.8 80.01) (xy 80.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4555,6 +4695,16 @@
 			(type default)
 		)
 		(uuid "a2e4da55-88c5-4ff5-b339-c2813313a951")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a42ff83f-25c4-4323-8204-bb71ed517616")
 	)
 	(wire
 		(pts
@@ -6438,6 +6588,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 82.55 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22f9747d-3946-4eff-897e-5544a0c8ecd1")
+		(property "Reference" "R51"
+			(at 78.74 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 85.598 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0402FR-0710KL"
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4268b71d-f206-4c34-9cd8-f53583e97bcb")
+		)
+		(pin "1"
+			(uuid "de4dfbd5-41af-47f8-bd7e-0ef3ef17a515")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 106.68 36.83 0)
 		(mirror y)
@@ -7082,6 +7344,86 @@
 			(project "X19-USB-Hub-Board"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 95.25 80.01 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "433d1967-7afa-4d8d-9bdf-5739eae4d9e9")
+		(property "Reference" "TP9"
+			(at 96.52 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCIE_RST_B"
+			(at 97.79 82.0421 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 100.33 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 95.25 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb23eca3-679f-4ac8-9510-a8b796c05bc9")
+		)
+		(instances
+			(project "X19-USB-Hub-Board"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
