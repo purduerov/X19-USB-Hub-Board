@@ -7372,7 +7372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCIE_RST"
+		(property "Value" "PCIE_RST_B"
 			(at 97.79 82.0421 0)
 			(hide yes)
 			(show_name no)
