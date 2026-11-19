@@ -3,10 +3,14 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6312)
+		(thickness 1.6062)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "X19-USB-Hub-Board")
+		(company "Purdue ROV")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -98,11 +102,10 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
-			(copper_finish "OSP")
+			(copper_finish "ENIG")
 			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.13)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -118,6 +121,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -51931,7 +51935,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "ee5542bb-4ed9-4592-9260-b2fbb6c4aba3")
-		(at 67.45 62.7 180)
+		(at 72.5 83.8 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -52378,17 +52382,6 @@
 			(uuid "99372965-d0aa-4780-851d-de52ea4e28ab")
 		)
 		(embedded_fonts no)
-	)
-	(gr_rect
-		(start 69.2 82.1)
-		(end 74.2 87.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.SilkS")
-		(uuid "c5902197-9ad7-4bbb-8a97-80ad8e5e2a36")
 	)
 	(gr_line
 		(start 50 52.5)
