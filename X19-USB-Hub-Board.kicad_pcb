@@ -51215,7 +51215,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Raspberry_Pi_4"
+		(property "Value" "Raspberry_Pi_5"
 			(at -1.27 -51.03 90)
 			(layer "B.Fab")
 			(uuid "20fec347-eac0-419a-b1e7-9dfa83ff5e58")
@@ -51264,6 +51264,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Part Number" "1528-1385-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b29a3dc2-3e70-46bd-851a-a39cfa8f5dd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "PinHeader*2x20*P2.54mm*Vertical* PinSocket*2x20*P2.54mm*Vertical*")
 		(path "/349bd30f-8a65-432a-b36d-f6fbabf46f57")
 		(sheetname "/")
@@ -51277,7 +51291,7 @@
 				)
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.87 1.33)

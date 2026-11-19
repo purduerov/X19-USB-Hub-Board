@@ -7096,7 +7096,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7112,7 +7112,7 @@
 				)
 			)
 		)
-		(property "Value" "Raspberry_Pi_4"
+		(property "Value" "Raspberry_Pi_5"
 			(at 60.96 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7156,6 +7156,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "1528-1385-ND"
+			(at 60.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "23"
